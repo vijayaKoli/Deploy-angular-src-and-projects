@@ -1,14 +1,10 @@
-import { Component,OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-demo',
   templateUrl: './demo.component.html',
   styleUrls: ['./demo.component.css']
 })
-export class DemoComponent implements OnInit {
-  ngOnInit(): void {
+export class DemoComponent {
 
-  }
-   public EconomicCities = ["Mumbai","Kolkata","Chennai","Bengaluru"];
-   number: number =0;
 }
